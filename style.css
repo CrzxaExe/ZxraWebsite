@@ -50,7 +50,7 @@ body{
   font-weight: 400;
 }
 .sidebar #btn{
-  position: relative;
+  position: absolute;
   color: #fff;
   left: 55%;
   top: 6px;
