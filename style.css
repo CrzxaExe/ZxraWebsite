@@ -88,12 +88,13 @@ body{
   background: #fff;
 }
 .sidebar ul li a i{
+  position: relative;
   height: 30px;
   min-width: 50px;
   border-radius: 12px;
   line-height: 30px;
   font-size: 30px;
-  top: -600px;
+  top: -0px;
   text-align: top;
 }
 .sidebar .logo_content .logo i{
