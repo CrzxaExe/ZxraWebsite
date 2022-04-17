@@ -92,7 +92,7 @@ body{
   height: 10px;
   min-width: 50px;
   border-radius: 12px;
-  line-height: 30px;
+  line-height: 0px;
   font-size: 30px;
   top: 0px;
   text-align: top;
