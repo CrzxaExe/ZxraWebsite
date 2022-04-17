@@ -108,7 +108,7 @@ body{
   border-radius: 6px;
   height: 35px;
   width: 122px;
-  line-height: 35px;
+  line-height: 0px;
   text-align: center;
   background: #fff;
   box-shadow: 0 5px 10px rgba(5,101,232,1);
