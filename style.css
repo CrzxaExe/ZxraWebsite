@@ -73,7 +73,7 @@ body{
   width: 100%;
   margin: 0 5px;
   list-style: none;
-  line-height: 2px;
+  line-height: -32px;
 }
 .sidebar ul li a{
   color: #fff;
