@@ -58,7 +58,7 @@ body{
   height: 50px;
   width: 50px;
   text-align: center;
-  line-height: 10px;
+  line-height: 30px;
   transform: translateX(-50%);
 }
 .sidebar.active #btn{
@@ -93,7 +93,7 @@ body{
   height: 50px;
   min-width: 50px;
   border-radius: 12px;
-  line-height: 60px;
+  line-height: 50px;
   font-size: 30px;
   top: 5px;
   text-align: center;
