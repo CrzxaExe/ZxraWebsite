@@ -89,7 +89,6 @@ body{
   background: #fff;
 }
 .sidebar ul li a i{
-  position: relative;
   height: 10px;
   min-width: 50px;
   border-radius: 12px;
@@ -133,13 +132,4 @@ body{
 .sidebar.active .links_name{
   opacity: 1;
   pointer-events: auto;
-}
-.home_content .text{
-  font-size: 20px;
-  position: absolute;
-  left: 80px;
-}
-.home_content img {
-  width: 200px;
-  height: 200px;
 }
