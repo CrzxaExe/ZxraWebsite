@@ -2,6 +2,8 @@
 <head>
   <title>Zxra Website</title>
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -11,5 +13,52 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i class='bx bx-code-alt' ></i>
+        <div class="logo_name">Crzx Web</div>
+      </div>
+      <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+        <a href="#">
+          <i class='bx bxs-grid-alt' ></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="https://youtube.com/c/CrzxDsubscribe">
+          <i class='bx bxl-youtube' ></i>
+          <span class="links_name">Youtube</span>
+        </a>
+        <span class="tooltip">Youtube</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-downvote'></i>
+          <span class="links_name">Downloads</span>
+        </a>
+        <span class="tooltip">Downloads</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-ghost'></i>
+          <span class="links_name">Cz V2</span>
+        </a>
+        <span class="tooltip">Cz V2</span>
+      </li>
+    </ul>
+  </div>
+  <script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    
+    btn.onclick = function() {
+     sidebar.classList.toggle("active");
+    }
+  </script>
 </body>
 </html>

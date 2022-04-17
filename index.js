@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const config = require('./config.json');
+const ejs = require('ejs');
 const app = express();
 const port = 3000;
 
