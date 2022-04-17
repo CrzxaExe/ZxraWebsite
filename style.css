@@ -68,7 +68,7 @@ body{
   margin-top: 20px;
 }
 .sidebar ul li{
-  position: absolute;
+  position: relative;
   height: 1%;
   width: 100%;
   margin: 0 1px;
