@@ -50,7 +50,7 @@ body{
   font-weight: 400;
 }
 .sidebar #btn{
-  position: absolute;
+  position: relative;
   color: #fff;
   left: 55%;
   top: 6px;
@@ -58,7 +58,7 @@ body{
   height: 50px;
   width: 50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 10px;
   transform: translateX(-50%);
 }
 .sidebar.active #btn{
